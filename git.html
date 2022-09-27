@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-    <a href="index.html"><button class="btn"><i class="fa fa-home"></i> ANA SAYFA</button></a>
+    <a class="btn" href="index.html">ANA SAYFA</a>
     <hr>
     <div class="gitsparagraph">
     <h1>Git ve GitHub NEDİR?</h1>
@@ -68,6 +68,22 @@
     <hr>
 
     <div class="howworksparagraph">
+
+        <h4>Bilgisayarımızda(Local) Depo(Repository) Nasıl Oluşturulur?</h4>
+            <ul>
+                <li>Kendi bilgisayarımızda(local) bir depo(repository) oluşturmak için,
+                    terminale "git init" komutunu vermeliyiz.
+                </li>
+                <li>Bu komutu verdikten sonra localde bir depo oluşturmuş oluruz.</li>
+                <li>Daha sonra ekleyeceğimiz dosyalarımızı "git add ." komutu ile ekleriz.</li>
+                <li>Dosyaları ekledikten sonra "git commit -m "yapılan işlem" mesajı ile işlemi belirtiriz.</li>
+                <li>Mesaj sonrasında "git remote add origin github üzerindeki repository adresi" komutu ile 
+                    local depomuzu ve github depomuzu birbirine bağlamış oluruz.
+                </li>
+                <li>Depolarımızı bağladıktan sonra "git push" yaparak dosyalarımızı github depomuza eklemiş oluruz.</li>
+            </ul>
+
+
         <h4>Git ve GitHub'ın Çalışma Şekline Örnek Olarak:</h4>
         <p>HTML, CSS ve JAVASCRIPT ile oluşturulmuş bir web sitesi üzerinde 4 kişilik bir grubun çalıştığını düşünelim.
             Projenin yöneticisi öncelikle projeyi GitHub platformuna bir depo oluşturarak yükler.
@@ -102,6 +118,7 @@
                     Projeye girdikten sonra "pull request" sekmesine tıklıyoruz, sonrasında "Compare & Pull Request" yazan kutucuğa
                     tıklayarak hem oluşabilecek çatışmaları(conflict) görebiliyoruz hem de birleştirme işlemini uygulayabiliyoruz.</li>
             </ul>
+
     </div>
 </body>
 </html>

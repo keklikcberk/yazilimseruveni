@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git ve GitHub NEDİR?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <a href="index.html"><button class="btn"><i class="fa fa-home"></i> ANA SAYFA</button></a>
+    <hr>
+    <div class="gitsparagraph">
+    <h1>Git ve GitHub NEDİR?</h1>
+    <img class="whatisgit" src="images/gitandgithub.png" alt="gitandgithub-png">
+    <p>Git veya GitHub' ı yazılım alanında kendinizi geliştirmek istediyseniz,
+        çeşitli yazılım projeleri hakkında araştırma yaptıysanız veya yazılımla ilgili kavramlara göz attıysanız mutlaka duymuşsunuzdur.
+        Peki bu kavramların ne olduğu hakkında bilgi almak ister misiniz? O zaman sizlere bu kavramlar hakkında kendi bildiklerimi
+        aktarmaya çalışacağım. Bu kavramları açıklamak için öncelikle Sürüm Kontrol Sistemi kavramını bilmemiz gerekiyor. </p>
+    </div>
+    
+<hr>
+    <div class="vcsparagraph">
+        <h4>SÜRÜM KONTROL SİSTEMİ NEDİR?</h4>
+        <img class="vcs" src="images/vcs.png" alt="vcs-png">
+        <p>Kısaca bir projede yapılan değişiklikleri, güncellemeleri veya atılan adımların hepsini takip eder ve bu hareketleri kaydeder.
+           Kaydedilen bu hareketleri kullanıcılar görebilir, değiştirebilir veya geri alabilir.
+           Bu işlemlerin tümüne Sürüm Kontrol Sistemi adı verilmektedir. Bu kavramı kısaca açıkladıktan sonra ulaşmak
+           istediğimiz kavramların anlaşılması kolaylaşacaktır.</p>
+    </div>
+<hr>
+    <div class="whatgitparagraph">
+        <h4>Git Nedir?</h4>
+        <img class="gitgif" src="images/gitgif.gif" alt="git-gif">
+        <p>Git, birçok projede son derece önemli olarak kabul edilen, oldukça popüler ve açık kaynaklı sürüm kontrol sistemidir.
+            Git' in bu kadar önemli ve popüler olmasının nedenlerini şu şekilde sıralayabiliriz:
+            <ul>
+                <li>Açık kaynaklı olması nedeniyle ortak çalışmalarla kullanılabilir, değiştirilebilir ve geliştirilebilirdir.</li>
+                <li>Dallanma(branching) olarak adlandırılan yetenekleri sayesinde yapılan işi kolaylaştırır.</li>
+                <li>Yerel işlemler yapmaya olanak sağlar. Bu sayede tek merkezli bir kopya üzerinden işlem yapmak yerine birçok yerel merkeze sahip olunur.</li>
+                <li>Birçok yerel merkeze sahip olması dolayısıyla işlemlerin akışı kolaylaşır ve işlem hızı artar.</li>
+                <li>Çeşitli işlevleri dolayısıyla(push, pull, commit, status vb.) yapılan işlemleri kolayla takip edebilir ve yönetebiliriz.</li>
+            </ul>
+    </div>
+<hr>
+    <div class="githubparagraph">
+        <h4>GitHub Nedir ve Özellikleri Nelerdir?</h4>
+        <img class="githubgif" src="images/github.gif" alt="gifhub-gif">
+        <p>GitHub, ortak bir şekilde çalışabilme imkanı sunan ve sürüm kontrol sistemi için kullanılan bulut tabanlı bir git deposudur.</p>
+        <ul>
+            <li>Projeleri depolamak(Repository) için kullanılır.(HTML, CSS, JAVASCRIPT DOSYALARI, VERİLER vb.) </li>
+            <li>Dallanma sistemi(Branching) sayesinde yeni kopyalarda çalışma, projeleri güçlendirme, hataları analiz etme ve düzeltmeler yapma imkanı sunar.</li>
+            <li>Çekme istekleri(Pull Request) yapabilme özellikleri vardır. Çekme özelliği: proje üzerinde yeni bir değişiklik yaptıktan sonra aynı proje üzerinde çalışan kullanıcılara bilgi verme amaçlı kullanılır.</li>
+            <li>Taahhüt(Commit) komutu sayesinde yapılan her değişikliğin nedeni açıklanır.</li>
+        </ul>
+        <hr>
+
+        <img class="cloud" src="images/cloud.png" alt="cloud-png">
+
+           <h4>Bulut Tabanlı Sistem Nedir?</h4>
+           <p>İnternet tabanlı olarak veri ve bilgi paylaşmamıza olanak sağlar.
+            Hızlı, güvenli ve geniş kaynaklı olması nedeniyle daha çok tercih edilen bir teknolojidir.</p>
+    </div>
+    <hr>
+
+    <div class="howworksparagraph">
+        <h4>Git ve GitHub'ın Çalışma Şekline Örnek Olarak:</h4>
+        <p>HTML, CSS ve JAVASCRIPT ile oluşturulmuş bir web sitesi üzerinde 4 kişilik bir grubun çalıştığını düşünelim.
+            Projenin yöneticisi öncelikle projeyi GitHub platformuna bir depo oluşturarak yükler.
+            Yüklenen projenin bulunduğu başlığa giderek tüm proje çalışanları kendi bilgisayarlarına projeyi klonlar.
+            Bu klonlama işlemi ise şu şekilde gerçekleşir:</p>
+
+            <ul>
+                <li>Öncelikle bir terminale ve bir kod editörüne(VS Code, Atom vb.) ihtiyaç vardır.</li>
+                <li>GitHub üzerinden projenin kodlarını HTTPS protokolü ile kopyalar.</li>
+                <li> Kopyalanan bu bağlantı sonrası terminali açar ve "git clone ve https://kopyalanan.bağlantı." şeklinde komut verir. Bu komut sonrasında projeyi kendi bilgisayarına klonlamış olur.</li>
+                <li>Klonlama işlemi sonrasında kod editörümüzün VS Code olduğunu varsayalım.
+                    VS Code üzerinden terminali açarız ve "git status" komutunu yazarız.
+                    Bu komut bize en son değişiklikleri ve hangi dal üzerinde çalışma yaptığımızı gösterecektir.
+                    Eğer kendi bilgisayarımızdan bir değişiklik yaptıktan sonra aynı komutu çalıştırırsak taahhüt edilmeyen değişiklikleri bize gösterecektir.</li>
+                    
+                <li>Yeni bir index.html dosyası eklediğimizi düşünelim.
+                    Yaptığımız bu değişikliği "git add index.html" komutu ile ekleyebiliriz.
+                    Ya da yapılan birden çok değişiklik olursa "git add ." komutu ile tüm değişiklikleri ekleyebiliriz.
+                    Tekrardan " git status " komutunu çalıştırdığımızda eklenen dosyalar görünecektir.</li>
+
+                <li>Yaptığımız tüm değişiklikleri kaydedip ana depoya eklemek için
+                    "git commit -m "şu değişiklikleri yaptım" " tarzında bir komut ve yapılan şeyleri belirtmek için mesaj bırakılabilir.</li>
+
+                <li>Yapılan değişiklikleri göndermek için " git push " komutu kullanılır. Bu komut sayesinde değişiklikler GitHub depomuza dağıtılır.</li>
+
+                <li>Yeni bir dal oluşturmak istersek " git checkout -b oluşturulan dal adı" komutunu kullanabiliriz.
+                    Daha sonra terminalde "git branch" komutunu kullanarak üzerinde çalıştığımız dalın hangisi olduğunu görebiliriz.</li>
+
+                <li>Tüm değişikliklerimizi kendi bilgisayarımızda uyguladıktan sonra ana projeyle birleştirmek için
+                    pull request yani çekme isteği uygulamamız gerekir. Çekme isteği değişikliklerle oluşturulan dalları
+                    ana projeyle birleştirme işlemidir. Bu işlemi GitHub platformundan yapabiliyoruz.
+                    Projeye girdikten sonra "pull request" sekmesine tıklıyoruz, sonrasında "Compare & Pull Request" yazan kutucuğa
+                    tıklayarak hem oluşabilecek çatışmaları(conflict) görebiliyoruz hem de birleştirme işlemini uygulayabiliyoruz.</li>
+            </ul>
+    </div>
+</body>
+</html>

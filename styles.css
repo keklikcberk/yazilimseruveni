@@ -1,0 +1,200 @@
+body {
+    background-color: #3A4750;
+    text-align: center;
+    font-size: 1.3rem;
+    
+}
+.logoheader {
+    background-color: #F6C90E;
+    text-align: center;
+}
+.mainheader {font-family: 'Pacifico', cursive;
+
+}
+.aboutme {
+    color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+}
+.mystudies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+hr {
+    border: dotted #fff 5px;
+    border-bottom: none;
+}
+
+h1 {
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+}
+
+.pagelogo {
+    height: 200px;
+    width: 250px;
+}
+.hownetworkslogo {
+    height: 200px;
+    width: 400px;
+}
+.gitlogo {
+    height: 200px;
+    width: 400px;
+}
+.github {
+    text-align: center;
+    background-color:#F6C90E;
+    height: 300px;
+    width: 400px;
+}
+.hownetworks {
+    background-color: #F6C90E;
+    height: 300px;
+    width: 400px;
+}
+.btn {
+    background: black;
+    background-image: -webkit-linear-gradient(top, black, black);
+    background-image: -moz-linear-gradient(top, black, black);
+    background-image: -ms-linear-gradient(top, black, black);
+    background-image: -o-linear-gradient(top, black, black);
+    background-image: linear-gradient(to bottom, black, black);
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background: #082c42;
+    background-image: -webkit-linear-gradient(top, grey, grey);
+    background-image: -moz-linear-gradient(top, grey, grey);
+    background-image: -ms-linear-gradient(top, grey, grey);
+    background-image: -o-linear-gradient(top, grey, grey);
+    background-image: linear-gradient(to bottom, grey, grey);
+    text-decoration: none;
+  }
+  #contactme {
+    background-color: #F6C90E;
+    padding: 50px 0 20px;
+    margin: 100px 0 0 0;
+  }
+
+ 
+
+
+.gitsparagraph {
+    background-color: #F6C90E;
+    margin-bottom: 50px;
+    padding: 10px 50px 20px 50px;
+    
+    
+}
+
+.vcsparagraph{
+    background-color: #F6C90E;
+    margin-bottom: 50px;
+    padding: 10px 50px 20px 50px;
+    
+}
+
+.whatgitparagraph {
+    background-color: #F6C90E;
+    margin-bottom: 50px;
+    padding: 10px 50px 20px 50px;
+    
+}
+
+.githubparagraph {
+    background-color: #F6C90E;
+    padding: 10px 50px 20px 50px;
+    margin-bottom: 50px
+
+    
+}
+
+.howworksparagraph {
+    background-color: #F6C90E;
+    padding: 10px 50px 20px 50px;
+}
+
+img {
+   height: 250px;
+   width: 400px;
+   
+   
+}
+h1, h4 {
+    font-family: 'Kanit', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 3rem;
+}
+.introparagraph {
+    background-color: #F6C90E;
+    margin-bottom: 50px;
+    padding: 10px 50px 20px 50px;
+    
+    
+}
+
+.exampleparagraph{
+    background-color: #F6C90E;
+    margin-bottom: 50px;
+    padding: 10px 50px 20px 50px;
+    
+}
+
+.httpparagraph {
+    background-color: #F6C90E;
+    margin-bottom: 50px;
+    padding: 10px 50px 20px 50px;
+    
+}
+
+.portsparagraph {
+    background-color: #F6C90E;
+    padding: 10px 50px 20px 50px;
+    
+}
+.pic2 {
+    padding-right: 100px;
+}
+
+.pic3 {
+    padding-left: 80px;
+}
+
+.header {
+    background-color: #F6C90E;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 2rem;
+    padding: 10px;
+    margin-top: 0px;
+    font-family: 'Pacifico', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;}
+
+li{
+    padding: 20px;
+     }

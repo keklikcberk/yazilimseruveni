@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIKLADIKTAN SONRA NELER OLUYOR?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <a href="index.html"><button class="btn"><i class="fa fa-home"></i> ANA SAYFA</button></a>
+    <hr>
+    <div class="introparagraph">
+    <h1>TIKLADIKTAN SONRA NELER OLUYOR?</h1>
+    <img class="pic1" src="images/googlesearch.gif" alt="search-gif">
+    <h4>TIKLADIKTAN SONRA NELER OLUYOR?</h4>
+       <p>
+        Hepimiz gün içerisinde bir şeyi merak ederek veya bir şeye ulaşmak amacıyla internetten çeşitli aramalar yapıyoruz.
+        Bu aramaları yapmak için tıkladığımız anda arka planda neler oluyor hiç merak ettiniz mi? 
+        Bilgisayarımızdan veya telefonumuzdan bir internet sitesine ulaşmak istediğimizde öncelikle bir tarayıcıya ihtiyaç duyarız.
+        (Chrome, Mozilla, Safari vb.) Tarayıcıyımızı açtıktan sonra ulaşmak istediğimiz web sitesinin adresini yazarız.(www.google.com gibi)
+        Bu şekilde site adresini yazıp arama tuşuna bastığımız andan sonra kullandığımız tarayıcı,
+        <strong>Domain Name System</strong>' a(DNS) giderek ulaşmak istediğimiz sitenin bağlı olduğu sunucunun yani ana bilgisayarın IP adresini talep eder. 
+        Bu talep sonrasında tarayıcımız hangi bilgisayarla iletişim kuracağını öğrenmiş olur.
+        İletişim kurulacak sunucu belirlendikten sonra belirlenmiş protokollere uyularak iletişim başlar.
+        İletişimde uyulması gereken kurallar bütününe <strong>HTTP yani Hypertext Transfer Protocol</strong> adı verilir.</p>
+    </div>
+<hr>
+    <div class="exampleparagraph">
+        <h4>TIKLAMA SONRASINDA ORTAYA ÇIKAN İLETİŞİM ÖRNEĞİ</h4>
+        <img class="pic2" src="images/click.gif" alt="click-gif">
+        <ul>
+            <li>Tarayıcı, sunucuya protokole göre istek gönderir.(HTML, CSS ve JAVASCRIPT dosyalarını ister.)</li>
+            <li>Sunucu isteği kabul eder.</li>
+            <li>Sunucu isteği uygulamak için program çalıştırır.</li>
+            <li>Program sayesinde tarayıcıya protokole uygun yanıt gönderir.(Dosyaları gönderir.)</li>
+            <li>Tarayıcı yanıtı alır.(Yanıtı aldıktan sonra içerik görüntülenir.)</li>
+        </ul>
+    </div>
+<hr>
+    <div class="httpparagraph">
+        <h4>HYPERTEXT TRANSFER PROTOCOL' E NEDEN UYULMALI?</h4>
+        <img class="pic3" src="images/http.png" alt="http-pic">
+        <p><strong>Hypertext Transfer Protocol</strong>, kullandığımız tarayıcı ile ulaşmak istediğimiz internet sitesi arasındaki iletişimin kurallarını belirler.
+           Bu kurallar olmadan iletişim kurmaya çalışırsak iletişim başarısız olur. Kurallar belirlendikten tarayıcımız socketler aracılığıyla portlara mesaj gönderir.
+           Mesajda ulaşmak istediğimiz sitenin oluşturulduğu <strong>HTML İÇERİĞİ, CSS ve JAVASCRIPT dosyaları</strong> istenir.
+           Sunucu ise bu dosyaları tarayıcımıza ulaştırır. Yapılan tüm bu alışverişte HTTP kurallarına uyulur.
+           Ulaştırılan bu belgeler tarayıcı tarafından render edilir ve içeriğe ulaşmamızı, etkileşim yapabileceğimiz sayfalar görüntülememize olanak sağlar. </p>
+    </div>
+<hr>
+    <div class="portsparagraph">
+        <img class="pic4" src="images/ports.png" alt="port-pic">
+        <h4>80 PORTUNU KULLANMAK</h4>
+        <p>Tarayıcımız, ulaşmak istediğimiz sunucunun portlarıyla veri alışverişi yaparken varsayılan olarak <strong>80 portunu</strong> kullanırsa,
+           ortaya çıkan sunucu ve tarayıcı arasındaki veri alışverişi şifrelenmeden oluşturulacağından güvenlik açısından sorunlar oluşabilmektedir.
+           Bu alışverişte HTTP kurallarına uyulmuş olur fakat <strong>güvenli olmayacaktır.</strong>
+           Güvenli olmamasının nedeni şifresiz bir veri alışverişine başka kullanıcıların kolaylıkla erişebilmesidir.</p>
+
+           <h4>443 PORTUNU KULLANMAK</h4>
+           <p>Ulaşmak istediğimiz site ile tarayıcımız arasındaki iletişimde 80 portu yerine 443 portu kullanılırsa,
+            bu işlem <strong>HTTPS yani Secure Hypertext Transfer Protocol</strong> kurallarına uyar. Böylece iletişim güvenli olacaktır.
+            İki portun arasındaki temel fark güvenliktir. 443 portunda sunucu ve kullanıcı arasındaki veri alışverişi şifrelenir ve bu alışveriş,
+            başka kullanıcılar tarafından görüntülenemeden sağlanmış olur. 443 portu yerine 80 portunu kullanan sitelere erişmek istediğimizde
+            tarayıcımız bize bu iletişimin güvenli olmadığını belirten bir uyarı gönderir. </p>
+    </div>
+    <hr>
+</body>
+</html>
